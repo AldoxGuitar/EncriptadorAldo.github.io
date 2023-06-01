@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador - Challange Oracle ONE 5</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="source/logo-aluraespanhol.svg" alt="Logo de Alura">
+        <img class="logo" src="source/ONE.png" alt="Logo de ONE">
+        <img class="logoaxg" src="source/Logo AxG.png" alt="Logo de Aldo">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="textarea" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="informacion">
+                <img class="señalinfo" src="source/warning.png" alt="precaucion">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="buttons">
+                <button class="encript" onclick="btnencript()">
+                    <img class="imgbuttons" src="source/lock.png" alt="lock">
+                    Encriptar
+                </button>
+                
+                <button class="desencript" onclick="btndesencript()">
+                    <img class="imgbuttons" src="source/unlock.png" alt="unlock">
+                    Desencriptar
+                </button>                
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <div class="piedepag">
+            <p>Mis redes Sociales:</p>
+            <a class="linkedin" href="https://www.linkedin.com/in/aldo-vargas-vega" target="_blank">
+                <img class="iconosfooter" src="source/linkedin.png" alt="Linkedin de Aldo">
+            </a>
+
+            <a class="github" href="https://github.com/AldoxGuitar" target="_blank">
+                <img class="iconosfooter" src="source/github.png" alt="Github de Aldo">
+            </a>
+            <p> &#169 Hecho por Aldo Vargas - Oracle Next Education Grupo 5</p>
+        </div>
+    </footer>
+
+</body>
+</html>
